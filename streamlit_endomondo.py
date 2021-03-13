@@ -45,6 +45,7 @@ st.write(data)
 
 
 
+
 points = data[['latitude', 'longitude']].to_numpy()
 midpoint = [np.average(data["latitude"]), np.average(data["longitude"])]
 m = folium.Map(location=midpoint, zoom_start=14)
@@ -52,7 +53,6 @@ folium.PolyLine(points, color='red', weight=4.5, opacity=.5).add_to(m)
 
 
 row1_1, row1_2 = st.beta_columns((1, 1  ))
-
 with row1_1:
     folium_static(m)
     
