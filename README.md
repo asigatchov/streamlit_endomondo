@@ -15,5 +15,9 @@ pip install -r requirements.txt
 
 streamlit run streamlit_endomondo.py
 
+Статья: 
+
+*[Статья - визуализация geo трека с помощью stremlit](https://xn--80aebjm7c4b.xn--p1ai/posts/101)*.
+
 
 
